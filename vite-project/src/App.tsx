@@ -1,7 +1,6 @@
-import "./App.css"
-import Button from "./components/button"
+import "./App.css";
+import Button from "./components/button";
 import Contador from "./components/contador";
-
 
 function App() {
     return (
