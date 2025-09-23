@@ -5,7 +5,7 @@ function Button () {
     const [isUserActive, setisUserActive] = useState(false); //estado inicial es falso por ende el color es rosado y dice que el usuario esta inactivo
 
     function changeState() {
-        console.log ("estoy dandole click");
+        console.info ("estoy dandole click");
         setisUserActive(!isUserActive); //false-> true
     }
 
